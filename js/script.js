@@ -7,16 +7,20 @@ refused.textContent = 'Refuse: '
 
 // loop starts here
 
-while(true) {
-    let userInput = prompt("Please enter a number greater than 100:");
-    
-    if(userInput === "" || userInput === null || parseInt(userInput) > 100) {
-        break;
-    }
+let userInput = prompt("Please enter a number:");
 
+function isPrime(num) {
+    for(let i = 2; i < num; i++) 
+        if(num % i === 0) return false;
+    return num > 1;
 }
 
-userInput;
+for(let i = 0; i < userInput; i++) {
+    if(isPrime(i)) {
+        console.log(i);
+    }
+}
+
 
 // refused.textContent += ;
 // admitted.textContent += ;

@@ -7,19 +7,16 @@ refused.textContent = 'Refuse: '
 
 // loop starts here
 
-people.forEach(name => {
-    console.log(name)
-    if(name === 'Phil' || name === 'Lola') {
-        refused.textContent += `${name}, `;
-    } else {
-        admitted.textContent += `${name}, `;
+while(true) {
+    let userInput = prompt("Please enter a number greater than 100:");
+    
+    if(userInput === "" || userInput === null || parseInt(userInput) > 100) {
+        break;
     }
-});
 
-refused.textContent = refused.textContent.slice(0,-2);
-refused.textContent += `.`;
-admitted.textContent = admitted.textContent.slice(0, -2);
-admitted.textContent += `.`;
+}
+
+userInput;
 
 // refused.textContent += ;
 // admitted.textContent += ;

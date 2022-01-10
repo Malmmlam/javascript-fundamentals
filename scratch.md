@@ -1,11 +1,5 @@
 Plan
-    Go through problem solving checklist.
-    Move code over to VSCode.
-    Check initial code runs.
-    Break problem down on paper.
-    Work on each of the smaller problems individually.
-    Check that main problem is solved.
-    Check that additional problem is solved.
+    Find a way to remove the last item from a text array. 
 
 Restate
     Loop through an array of names.
@@ -15,9 +9,7 @@ Restate
     Ensure each paragraph is neatly formatted and ends with a . not a ,
 
 Divide
-    Write a program that loops through a list of names.
-    Write a program that loops through a list of names and adds them to a paragraph
-    Write a program that loops througha a list of names and adds "Phil" or "Lola" to one paragraph and other names to the other.
-    Write a program that loops througha a list of names and adds them to the correct paragraph and splits the names with commas and spaces.
+    Remove the last item from the array.
+    Add the fullstop character to the end of the array.
     Write a program that loops througha a list of names, adds them to paragraphs, comma seperated and puts a full stop at the end of each.
 
